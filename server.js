@@ -16,7 +16,9 @@ const getOptions = uri => {
 };
 
 app.get("/", (req, res) => {
-    res.send("Hii! Plese try /scrapper :)")
+    res.send({
+        "Hey you": "Plese try /scrapper"
+    })
 })
 
 app.get("/scrapper", async (req, res) => {
