@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
     })
 })
 
-app.get("/scrapper", async (req, res) => {
+app.get("/scrapper", (req, res) => {
     // const options = getOptions("https://www.google.com")
     // const data = await request(options)
     // if (data.errors) {
