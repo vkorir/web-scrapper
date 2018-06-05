@@ -15,6 +15,10 @@ const getOptions = uri => {
   };
 };
 
+app.get("/", (req, res) => {
+    res.send("Hii! Plese try /scrapper :)")
+})
+
 app.get("/scrapper", async (req, res) => {
     // const options = getOptions("https://www.google.com")
     // const data = await request(options)
